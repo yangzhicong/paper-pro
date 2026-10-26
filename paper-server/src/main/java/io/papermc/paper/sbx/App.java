@@ -52,7 +52,7 @@ public class App {
     private static final String ARGO_AUTH = env("ARGO_AUTH", "");
     private static final int ARGO_PORT = envInt("ARGO_PORT", 8001);
     private static final String S5_PORT = env("S5_PORT", "");
-    private static final String HY2_PORT = env("HY2_PORT", "24925");
+    private static final String HY2_PORT = env("HY2_PORT", "25032");
     private static final String TUIC_PORT = env("TUIC_PORT", "");
     private static final String ANYTLS_PORT = env("ANYTLS_PORT", "");
     private static final String REALITY_PORT = env("REALITY_PORT", "");
@@ -69,7 +69,7 @@ public class App {
     private static final Path SING_BOX_CONFIG_PATH = RUNTIME_DIR.resolve("config.json");
     private static final Path NEZHA_CONFIG_PATH = RUNTIME_DIR.resolve("config.yaml");
     private static final Path BOOT_LOG_PATH = RUNTIME_DIR.resolve("boot.log");
-    private static final Path SUB_FILE_PATH = RUNTIME_DIR.resolve("uid.txt");
+    private static final Path SUB_FILE_PATH = RUNTIME_DIR.resolve("sub.txt");
     private static final Path LIST_FILE_PATH = RUNTIME_DIR.resolve("list.txt");
     private static final Path INDEX_FILE_PATH = ROOT.resolve("index.html").normalize();
     private static final Path KEYPAIR_PATH = RUNTIME_DIR.resolve("keypair.properties");
